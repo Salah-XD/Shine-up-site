@@ -2,6 +2,7 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import logo from "../assets/logo.png";
 import { navItems } from "../constants";
+import Home from "../pages/Home";
 
 const Navbar = () => {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
@@ -15,10 +16,9 @@ const Navbar = () => {
       <div className="container px-4 mx-auto relative lg:text-sm">
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">
-          <span style={{ fontFamily: 'Montserrat, sans-serif',fontWeight:550, fontSize: '1.25rem', letterSpacing: '-0.01562em', color: 'white' }}>
-          ShineUp
-          </span>
-        
+            <span style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 550, fontSize: '1.25rem', letterSpacing: '-0.01562em', color: 'white' }}>
+              ShineUp
+            </span>
           </div>
           <ul className="hidden lg:flex ml-14 space-x-12">
             {navItems.map((item, index) => (
@@ -28,14 +28,12 @@ const Navbar = () => {
             ))}
           </ul>
           <div className="hidden lg:flex justify-center space-x-12 items-center">
-            
             <a
               href="mailto:digitalshineup@gmail.com"
               className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md"
             >
               Contact Us
             </a>
-
           </div>
           <div className="lg:hidden md:flex flex-col justify-end">
             <button onClick={toggleNavbar}>
@@ -48,17 +46,17 @@ const Navbar = () => {
             <ul>
               {navItems.map((item, index) => (
                 <li key={index} className="py-4">
-                  <a href={item.href}>{item.label}</a>
+                  <a href={item.href} onClick={toggleNavbar}>{item.label}</a> {/* Added onClick to close the navbar */}
                 </li>
               ))}
             </ul>
             <div className="flex space-x-6">
-            <a
-            href="mailto:digitalshineup@gmail.com"
-            className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md"
-          >
-            Contact Us
-          </a>
+              <a
+                href="mailto:digitalshineup@gmail.com"
+                className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md"
+              >
+                Contact Us
+              </a>
             </div>
           </div>
         )}

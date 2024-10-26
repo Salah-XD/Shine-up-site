@@ -1,62 +1,39 @@
 import { ScissorsLineDashed } from "lucide-react";
-import { BatteryCharging } from "lucide-react";
+import { PenTool } from "lucide-react";
 import { PanelTop } from "lucide-react";
 import { ShieldHalf } from "lucide-react";
-import { PlugZap } from "lucide-react";
-import { GlobeLock } from "lucide-react";
+import { Rotate3d } from "lucide-react";
+import FullPortfolio from "../pages/FullPortfolio";
 
+import user1 from "../assets/profile-pictures/user1.png";
+import user2 from "../assets/profile-pictures/user2.png";
+import user3 from "../assets/profile-pictures/user3.png";
 
-import user1 from "../assets/profile-pictures/user1.jpg";
-import user2 from "../assets/profile-pictures/user2.jpg";
-import user3 from "../assets/profile-pictures/user3.jpg";
-import user4 from "../assets/profile-pictures/user4.jpg";
-import user5 from "../assets/profile-pictures/user5.jpg";
-import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "Services", href: "#" },
-  { label: "Portfolio", href: "#" },
-  { label: "Testimonials", href: "#" },
-  { label: "Team", href: "#" }
+  { label: "Home", href: "/" }, // Home link
+  { label: "Services", href: "/#features" }, // Updated to link to Services section
+  { label: "Portfolio", href: "/full-portfolio" },
+  { label: "Testimonials", href: "/#testimonials" }, // Updated to link to Testimonials section
+  { label: "Team", href: "#" },
 ];
 
 export const testimonials = [
   {
-    user: "John Doe",
-    company: "Stellar Solutions",
+    user: "Nadan Coconut Flakes",
     image: user1,
-    text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+    text: "The advertisement motion graphics video you created for us was fantastic! The workflow was smooth, the quality was top-notch, and the communication was excellent throughout the project.",
   },
   {
-    user: "Jane Smith",
-    company: "Blue Horizon Technologies",
+    user: "Manickavasagam & Associates",
     image: user2,
-    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+    text: "The responsive website you developed for our HR consultancy is amazing. We're really impressed with its performance and the SEO optimization. Great job!",
   },
   {
-    user: "David Johnson",
-    company: "Quantum Innovations",
+    user: "Bliend",
     image: user3,
-    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
-  },
-  {
-    user: "Ronee Brown",
-    company: "Fusion Dynamics",
-    image: user4,
-    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
-  },
-  {
-    user: "Michael Wilson",
-    company: "Visionary Creations",
-    image: user5,
-    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
-  },
-  {
-    user: "Emily Davis",
-    company: "Synergy Systems",
-    image: user6,
-    text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
-  },
+    text: "We loved the logo animation video and posters! Your creativity and professionalism really shone through. Thanks for bringing our vision to life!",
+  }
 ];
 
 export const features = [
@@ -79,17 +56,17 @@ export const features = [
       "Rank higher and attract more customers with ShineUp’s comprehensive SEO services, focusing on best practices that deliver measurable results and maximize your online presence.",
   },
   {
-    icon: <BatteryCharging />,
+    icon: <PenTool />,
     text: "Graphic Design",
     description:
       "Transform ideas into visual masterpieces with ShineUp’s expert graphic design solutions, tailored to reflect your brand’s unique personality and resonate with your target audience.",
   },
   {
-    icon: <PlugZap />,
+    icon: <Rotate3d />,
     text: "3D Modeling",
     description:
       "Bring your concepts to life with ShineUp’s advanced 3D modeling services, where we turn your ideas into detailed and realistic visual representations for projects of any scale.",
-  }
+  },
 ];
 
 export const checklistItems = [
@@ -115,7 +92,7 @@ export const checklistItems = [
   },
 ];
 
-export const pricingOptions = [
+export const PortfolioOptions = [
   {
     title: "Free",
     price: "$0",

@@ -1,0 +1,41 @@
+/* Footer Styles */
+.footer {
+    background-color: #121212;
+    color: white; /* Set text color to white */
+}
+
+.footer a {
+    color: white; /* Set link color to white */
+    transition: background-color 0.2s; /* Smooth transition for hover effects */
+}
+
+.footer a:hover {
+    background-color: #FFA500; /* Hover color for links */
+}
+
+.footer .input-field {
+    background-color: #1a1a1a; /* Input background color */
+    border: 1px solid #4B5563; /* Border color */
+    color: white; /* Input text color */
+}
+
+.footer .input-field::placeholder {
+    color: #171717; /* Placeholder color */
+}
+
+.footer .subscribe-button {
+    background: linear-gradient(to right, #FF8C00, #FF4500); /* Gradient button background */
+    color: white; /* Button text color */
+    padding: 0.5rem 1rem; /* Button padding */
+    border-radius: 0.375rem; /* Rounded corners */
+}
+
+.footer .subscribe-button:hover {
+    opacity: 0.8; /* Change opacity on hover */
+}
+
+/* Additional styles to ensure layout and spacing */
+.footer .subscribe-form {
+    display: flex;
+    gap: 1rem; /* Space between input and button */
+}

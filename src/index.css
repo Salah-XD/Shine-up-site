@@ -8,3 +8,24 @@
   font-family: "Montserrat", sans-serif;
   color-scheme: dark;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.swiper-pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px; /* Space above pagination */
+}
+
+.swiper-pagination-bullet {
+  background: #ffffff; /* Bullet color */
+  opacity: 0.7; /* Optional: change opacity */
+  margin: 0 4px; /* Space between bullets */
+}
+
+.swiper-pagination-bullet-active {
+  background: #ff4500; /* Active bullet color */
+  opacity: 1; /* Full opacity for active bullet */
+}
