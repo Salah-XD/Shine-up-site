@@ -10,7 +10,7 @@
 }
 
 .footer a:hover {
-    background-color: #FFA500; /* Hover color for links */
+    background-color:none; /* Hover color for links */
 }
 
 .footer .input-field {
@@ -38,4 +38,31 @@
 .footer .subscribe-form {
     display: flex;
     gap: 1rem; /* Space between input and button */
+}
+
+/* Footer.css */
+
+.input-field::placeholder {
+    color: rgba(255, 255, 255, 0.5); /* White color with 50% opacity */
+}
+
+.input-field {
+    color: white; /* Text color */
+}
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Footer.css */
+
+/* Reset hover effects for social media icons */
+.footer ul li a {
+    transition: none; /* Remove any transition effect */
+}
+
+.footer ul li a:hover {
+    background: none; /* No background on hover */
+    color: inherit; /* Retain the current color */
 }
