@@ -1,8 +1,23 @@
-/* Footer Styles */
+/* Footer base styling */
 .footer {
     background-color: #121212;
-    color: white; /* Set text color to white */
+    display: flex;
+    padding-bottom: 4rem;
+    flex-direction: column;
+    min-height: 10px;
 }
+
+/* Copyright bar styling */
+.copyright-bar {
+    margin-top: auto;
+    left: 0;
+    right: 0;
+    bottom: 0; /* Position it at the bottom of the screen */
+    background-color: #121212;
+    text-align: center; /* Center the text */
+    padding: 1rem 0; /* Add padding for a nice appearance */
+}
+
 
 .footer a {
     color: white; /* Set link color to white */
@@ -90,4 +105,5 @@
 .phone-mail {
     color: white;
     transition: color 0.3s ease;
+    text-decoration: none;
 }

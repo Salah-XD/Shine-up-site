@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn, FaPinterestP } from 'react-icons/fa'; // Import icons from react-icons
-import './Footer.css'; // Import the footer styles
+import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn, FaPinterestP } from 'react-icons/fa';
+import './Footer.css';
 
 const Footer = () => {        
     return (
@@ -27,10 +27,9 @@ const Footer = () => {
                                     digitalshineup@gmail.com
                                 </a>
                             </h3><br/>
-
                             {/* Social Media Links */}
                             <ul className="flex items-center justify-center space-x-4">
-                                <li>
+                                {/*<li>
                                     <a 
                                         href="#" 
                                         title="Facebook" 
@@ -38,17 +37,17 @@ const Footer = () => {
                                     >
                                         <FaFacebookF className="w-6 h-6" />
                                     </a>
-                                </li>
+                                </li> */}
                                 <li>
                                     <a 
-                                        href="#" 
+                                        href="https://www.instagram.com/shineup.digital/" 
                                         title="Instagram" 
                                         className="footer-icon flex items-center justify-center rounded-full w-8 h-8"
                                     >
                                         <FaInstagram className="w-6 h-6" />
                                     </a>
                                 </li>
-                                <li>
+                                {/*<li>
                                     <a 
                                         href="#" 
                                         title="Twitter" 
@@ -56,10 +55,10 @@ const Footer = () => {
                                     >
                                         <FaTwitter className="w-6 h-6" />
                                     </a>
-                                </li>
+                                </li> */}
                                 <li>
                                     <a 
-                                        href="#" 
+                                        href="https://www.linkedin.com/company/shineupdigital" 
                                         title="LinkedIn" 
                                         className="footer-icon flex items-center justify-center rounded-full w-8 h-8"
                                     >
@@ -68,7 +67,7 @@ const Footer = () => {
                                 </li>
                                 <li>
                                     <a 
-                                        href="#" 
+                                        href="https://in.pinterest.com/digitalshineup/" 
                                         title="Pinterest" 
                                         className="footer-icon flex items-center justify-center rounded-full w-8 h-8"
                                     >
@@ -89,6 +88,11 @@ const Footer = () => {
                         </a>
                     </div>
                 </div>
+            </div>
+
+            {/* Copyright Bar */}
+            <div className="copyright-bar text-center py-3 mt-6">
+                <p className="text-white text-sm md:text-base">© 2024 Copyright</p>
             </div>
         </section>
     );

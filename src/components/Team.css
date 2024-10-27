@@ -15,8 +15,8 @@
 }
 
 .team-member-image {
-    width: 300px; /* Change this value to scale the circles */
-    height: 300px; /* Maintain aspect ratio for circles */
+    width: 250px; /* Change this value to scale the circles */
+    height: 250px; /* Maintain aspect ratio for circles */
     border-radius: 50%; /* Make the image circular */
     object-fit: cover; /* Cover the entire circle */
     margin-bottom: 20px; /* Space below the image */
