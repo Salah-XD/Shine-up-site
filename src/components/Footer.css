@@ -66,3 +66,28 @@
     background: none; /* No background on hover */
     color: inherit; /* Retain the current color */
 }
+
+.gradient-text {
+    background: linear-gradient(to right, #f97316, #c2410c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: color 0.3s ease;
+}
+
+.footer-icon:hover,
+.phone-mail:hover {
+    background: linear-gradient(to right, #f97316, #c2410c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Default styles */
+.footer-icon {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.phone-mail {
+    color: white;
+    transition: color 0.3s ease;
+}

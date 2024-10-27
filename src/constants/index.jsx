@@ -14,8 +14,8 @@ export const navItems = [
   { label: "Home", href: "/" }, // Home link
   { label: "Services", href: "/#features" }, // Updated to link to Services section
   { label: "Portfolio", href: "/full-portfolio" },
-  { label: "Testimonials", href: "/#testimonials" }, // Updated to link to Testimonials section
-  { label: "Team", href: "#" },
+  { label: "Team", href: "/#team" },
+  { label: "Testimonials", href: "/#testimonials" },
 ];
 
 export const testimonials = [

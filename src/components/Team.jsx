@@ -26,7 +26,7 @@ const Team = () => {
     ];
 
     return (
-        <div className="team-section text-center">
+        <div id='team' className="team-section text-center">
             <h2 className="text-3xl sm:text-5xl lg:text-6xl my-8 tracking-wide">
                 Our Team
             </h2>

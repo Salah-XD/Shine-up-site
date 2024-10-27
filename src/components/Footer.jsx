@@ -12,56 +12,67 @@ const Footer = () => {
                         <div className="flex flex-col items-center mb-4">
                             <a href="/" title="Home">
                                 <img 
-                                    className="w-auto h-40 mb-2" 
+                                    className="w-auto h-20 mb-2" 
                                     src="src/assets/logo.png" 
                                     alt="Logo"
                                 />
                             </a>
+                            <h3 className="team-member-name phone-mail">
+                                <a href="tel:+919345541827" className="phone-mail">
+                                    +91 9345541827
+                                </a>
+                            </h3>
+                            <h3 className="team-member-name phone-mail">
+                                <a href="mailto:digitalshineup@gmail.com" className="phone-mail">
+                                    digitalshineup@gmail.com
+                                </a>
+                            </h3><br/>
+
                             {/* Social Media Links */}
                             <ul className="flex items-center justify-center space-x-4">
                                 <li>
                                     <a 
                                         href="#" 
                                         title="Facebook" 
-                                        className="flex items-center justify-center rounded-full w-8 h-8"
+                                        className="footer-icon flex items-center justify-center rounded-full w-8 h-8"
                                     >
-                                        <FaFacebookF className="w-6 h-6 text-white" />
+                                        <FaFacebookF className="w-6 h-6" />
                                     </a>
                                 </li>
                                 <li>
                                     <a 
                                         href="#" 
                                         title="Instagram" 
-                                        className="flex items-center justify-center rounded-full w-8 h-8"
+                                        className="footer-icon flex items-center justify-center rounded-full w-8 h-8"
                                     >
-                                        <FaInstagram className="w-6 h-6 text-white" />
+                                        <FaInstagram className="w-6 h-6" />
                                     </a>
                                 </li>
                                 <li>
                                     <a 
                                         href="#" 
                                         title="Twitter" 
-                                        className="flex items-center justify-center rounded-full w-8 h-8"
+                                        className="footer-icon flex items-center justify-center rounded-full w-8 h-8"
                                     >
-                                        <FaTwitter className="w-6 h-6 text-white" />
+                                        <FaTwitter className="w-6 h-6" />
                                     </a>
                                 </li>
                                 <li>
                                     <a 
                                         href="#" 
                                         title="LinkedIn" 
-                                        className="flex items-center justify-center rounded-full w-8 h-8"
+                                        className="footer-icon flex items-center justify-center rounded-full w-8 h-8"
                                     >
-                                        <FaLinkedinIn className="w-6 h-6 text-white" />
+                                        <FaLinkedinIn className="w-6 h-6" />
                                     </a>
                                 </li>
                                 <li>
                                     <a 
                                         href="#" 
                                         title="Pinterest" 
-                                        className="flex items-center justify-center rounded-full w-8 h-8"
+                                        className="footer-icon flex items-center justify-center rounded-full w-8 h-8"
                                     >
-                                        <FaPinterestP className="w-6 h-6 text-white" />
+                                        <FaPinterestP className="w-6 h-6" />
                                     </a>
                                 </li>
                             </ul>
