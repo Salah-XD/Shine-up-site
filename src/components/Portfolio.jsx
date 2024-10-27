@@ -8,12 +8,29 @@ import FullPortfolio from "../pages/FullPortfolio";
 
 // Import the sample image for the portfolio items
 import imgPath from "../assets/portfolioimgs/accscart.webp";
+import weebieshub from "../assets/portfolioimgs/weebposter.webp";
+import accountscorner from "../assets/portfolioimgs/accountscorner.webp";
+import threedweb from "../assets/portfolioimgs/3dweb.png";
+import aotposfree from "../assets/portfolioimgs/aotposfreecopy.webp";
+import bestpvaaccounts from "../assets/portfolioimgs/bestpvaaccounts.webp";
+import carrent from "../assets/portfolioimgs/carrent.png";
+import custom from "../assets/portfolioimgs/custom-design-poster.jpg";
+import forest from "../assets/portfolioimgs/forest-animation.jpg";
+import manickavasagam from "../assets/portfolioimgs/manickavasagam.webp";
+import moonposterutopia from "../assets/portfolioimgs/moonposterutopia.webp";
+import postereng from "../assets/portfolioimgs/postereng.webp";
+import screposter from "../assets/portfolioimgs/screposter.webp";
+import utopia from "../assets/portfolioimgs/utopia-anime.webp";
+import viralaccounts from "../assets/portfolioimgs/viralaccounts.webp";
+import wantedposter from "../assets/portfolioimgs/wantedposter.webp";
+import weebies from "../assets/portfolioimgs/weebieshub.png";
+import bliendwebsite from "../assets/portfolioimgs/bliendwebsite.webp";
+import world from "../assets/portfolioimgs/world.jpg";
 
 // Define categories and portfolio items
 const categories = [
   { id: "all", label: "All" },
   { id: "graphic-design", label: "Graphic Design" },
-  { id: "video-edit", label: "Video Edit" },
   { id: "3d-modelling", label: "3D Modelling" },
   { id: "web-development", label: "Web Development" },
 ];
@@ -22,46 +39,113 @@ const portfolioItems = [
   {
     id: 1,
     category: "graphic-design",
-    img: imgPath,
-    title: "Graphic Design 1",
+    img: weebieshub,
+    title: "Weebies Hub",
   },
   {
     id: 2,
     category: "graphic-design",
-    img: imgPath,
-    title: "Graphic Design 2",
+    img: accountscorner,
+    title: "Accounts Corner",
   },
   {
     id: 3,
     category: "graphic-design",
-    img: imgPath,
-    title: "Graphic Design 3",
+    img: aotposfree,
+    title: "AOT Poster",
   },
   {
     id: 4,
     category: "graphic-design",
-    img: imgPath,
-    title: "Graphic Design 4",
+    img: bestpvaaccounts,
+    title: "Best PVA Accounts",
   },
-  { id: 5, category: "3d-modelling", img: imgPath, title: "3D Modelling 1" },
-  { id: 6, category: "3d-modelling", img: imgPath, title: "3D Modelling 2" },
-  { id: 7, category: "3d-modelling", img: imgPath, title: "3D Modelling 3" },
-  { id: 8, category: "3d-modelling", img: imgPath, title: "3D Modelling 4" },
-  { id: 9, category: "video-edit", img: imgPath, title: "Video Edit 1" },
-  { id: 10, category: "video-edit", img: imgPath, title: "Video Edit 2" },
+  {
+    id: 5,
+    category: "graphic-design",
+    img: custom,
+    title: "Custom Design TShirt",
+  },
+  {
+    id: 6,
+    category: "graphic-design",
+    img: moonposterutopia,
+    title: "Moon Poster Utopia",
+  },
+  {
+    id: 7,
+    category: "graphic-design",
+    img: postereng,
+    title: "Engineers Day",
+  },
+  {
+    id: 8,
+    category: "graphic-design",
+    img: screposter,
+    title: "Private Screening Poster",
+  },
+  {
+    id: 9,
+    category: "graphic-design",
+    img: utopia,
+    title: "Utopia Anime",
+  },
+  {
+    id: 10,
+    category: "graphic-design",
+    img: viralaccounts,
+    title: "Viral Accounts",
+  },
   {
     id: 11,
-    category: "web-development",
-    img: imgPath,
-    title: "Web Development 1",
+    category: "graphic-design",
+    img: wantedposter,
+    title: "Wanted Poster",
   },
   {
     id: 12,
+    category: "3d-modelling",
+    img: world,
+    title: "World Modelling",
+  },
+  {
+    id: 13,
+    category: "3d-modelling",
+    img: forest,
+    title: "Forest Modelling",
+  },
+  {
+    id: 14,
     category: "web-development",
-    img: imgPath,
-    title: "Web Development 2",
+    img: bliendwebsite,
+    title: "Bliend Web Development",
+  },
+  {
+    id: 15,
+    category: "web-development",
+    img: manickavasagam,
+    title: "Manickavasagam Web Development",
+  },
+  {
+    id: 16,
+    category: "web-development",
+    img: threedweb,
+    title: "3D Web Development",
+  },
+  {
+    id: 17,
+    category: "web-development",
+    img: carrent,
+    title: "Event Web Development",
+  },
+  {
+    id: 18,
+    category: "web-development",
+    img: weebies,
+    title: "Weebieshub Web Development",
   },
 ];
+
 
 const Portfolio = () => {
   const [selectedCategory, setSelectedCategory] = useState("all");

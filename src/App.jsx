@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import FullPortfolio from "./pages/FullPortfolio";
+import CustomScrollComponent from './components/CustomScrollComponent';
 
 const App = () => {
   return (
