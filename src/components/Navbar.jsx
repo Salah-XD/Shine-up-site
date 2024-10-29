@@ -19,8 +19,9 @@ const Navbar = () => {
           <a href="/" title="Home">
             <img 
                 className="w-auto h-10" 
-                src="src/assets/logo.png" 
+                src={logo}
                 alt="Shineup-Logo"
+                loading="eager"
             />
           </a>
           </div>
