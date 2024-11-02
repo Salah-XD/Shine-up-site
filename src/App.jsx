@@ -3,7 +3,8 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import FullPortfolio from "./pages/FullPortfolio";
-import CustomScrollComponent from './components/CustomScrollComponent';
+import CustomScrollComponent from "./components/CustomScrollComponent";
+import { Sugar } from "react-preloaders";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         </Routes>
       </div>
       <Footer />
+      <Sugar />
     </Router>
   );
 };
