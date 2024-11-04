@@ -52,6 +52,16 @@ const videoItems = [
         title: "Instagram Reels",
         videoEmbed: '<iframe width="250" height="300" src="https://www.youtube.com/embed/Uj1eD_Rny0c?si=X7nV1lVTXs2P82N1&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 5px"></iframe>',
     },
+    {
+        id: 3,
+        title: "Story telling Video",
+        videoEmbed: '<iframe width="250" height="300" src="https://www.youtube.com/embed/NO6zK2qg2D4?si=C5HvJ47TGD8cshOe&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 5px"></iframe>',
+    },
+    {
+        id: 4,
+        title: "Instagram Reels",
+        videoEmbed: '<iframe width="250" height="300" src="https://www.youtube.com/embed/jTro09S4Yec?si=eJaFtZ-tBWUgtWiE&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 5px"></iframe>',
+    }
 ];
 
 const FullPortfolio = () => {

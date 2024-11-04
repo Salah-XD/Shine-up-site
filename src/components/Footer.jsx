@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn, FaPinterestP } from 'react-icons/fa';
 import './Footer.css';
+import logo from '../assets/logo.png';
 
 const Footer = () => {        
     return (
@@ -13,7 +14,10 @@ const Footer = () => {
                             <a href="/" title="Home">
                                 <img 
                                     className="w-auto h-20 mb-2" 
+
                                     src="src/assets/foot/logo.png" 
+                                   
+
                                     alt="Shineup-Logo"
                                     rel='preload'
                                 />
