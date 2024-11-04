@@ -13,7 +13,7 @@ const Footer = () => {
                             <a href="/" title="Home">
                                 <img 
                                     className="w-auto h-20 mb-2" 
-                                    src="src/assets/logo.png" 
+                                    src="src/assets/foot/logo.png" 
                                     alt="Shineup-Logo"
                                     rel='preload'
                                 />
