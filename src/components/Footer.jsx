@@ -15,9 +15,7 @@ const Footer = () => {
                                 <img 
                                     className="w-auto h-20 mb-2" 
 
-                                    src="src/assets/foot/logo.png" 
-                                   
-
+                                    src={logo}
                                     alt="Shineup-Logo"
                                     rel='preload'
                                 />
