@@ -14,7 +14,8 @@ const Footer = () => {
                                 <img 
                                     className="w-auto h-20 mb-2" 
                                     src="src/assets/logo.png" 
-                                    alt="Logo"
+                                    alt="Shineup-Logo"
+                                    rel='preload'
                                 />
                             </a>
                             <h3 className="team-member-name phone-mail">
