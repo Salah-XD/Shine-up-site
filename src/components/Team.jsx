@@ -1,6 +1,6 @@
 import React from 'react';
 import loki from "../assets/profile-pictures/loki.jpg";
-import user2 from "../assets/profile-pictures/user2.png";
+import user2 from "../assets/profile-pictures/member3.jpg";
 import user4 from "../assets/profile-pictures/user4.jpg";
 import './Team.css';
 import { Link } from 'react-router-dom';
@@ -11,7 +11,7 @@ const Team = () => {
             name: "Lokesh R",
             designation: "Founder",
             image: loki,
-            link: "https://lokeshnivash.netlify.app", // Link for Lokesh
+            link: "https://lokeshnivash.netlify.app",
         },
         {
             name: "Mohd Salahudeen",
@@ -19,8 +19,8 @@ const Team = () => {
             image: user4,
         },
         {
-            name: "Member 3",
-            designation: "Team Lead",
+            name: "Arun Slevam",
+            designation: "Co-Founder",
             image: user2,
         },
     ];
