@@ -6,17 +6,21 @@ import Footer from "../components/Footer";
 import Portfolio from "../components/Portfolio";
 import Testimonials from "../components/Testimonials";
 import Team from "../components/Team";
+import Videosection from "../components/Videosection";
 
 const Home = () => {
-    return (
-        <>
+  return (
+    <>
+      <Videosection />
+      <div className="max-w-7xl mx-auto pt-20 px-6">
         <HeroSection />
         <FeatureSection />
         <Portfolio />
-        <Team /> 
+        <Team />
         <Testimonials />
-        </>
-    );
+      </div>
+    </>
+  );
 };
 
 export default Home;
