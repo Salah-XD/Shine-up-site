@@ -10,12 +10,16 @@ const App = () => {
   return (
     <Router>
       <Navbar />
-      <div className="max-w-7xl mx-auto pt-20 px-6">
+      <div>
         <Routes>
           {/* Home Route - This serves as the main page */}
           <Route path="/" element={<Home />} />
           {/* Full Portfolio Route */}
-          <Route path="/full-portfolio" element={<FullPortfolio />} />
+          <Route
+            className="max-w-7xl mx-auto pt-20 px-6"
+            path="/full-portfolio"
+            element={<FullPortfolio />}
+          />
         </Routes>
       </div>
       <Footer />
