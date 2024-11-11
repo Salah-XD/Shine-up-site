@@ -12,7 +12,7 @@ const Footer = () => {
                     <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
                         <div className="flex flex-col items-center mb-4">
                             <a href="/" title="Home">
-                                <img 
+                                <img
                                     className="w-auto h-20 mb-2" 
 
                                     src={logo}
