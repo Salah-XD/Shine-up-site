@@ -1,3 +1,8 @@
+.mt-20{
+    padding-left: 75px !important;
+    padding-right: 75px ;
+}
+
 /* Modal Overlay */
 .modal-overlay {
     position: fixed;
@@ -19,6 +24,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 /* Adjusted modal image size */
