@@ -22,7 +22,7 @@ const Footer = () => {
                             </a>
                             <h3 className="team-member-name phone-mail">
                                 <a href="tel:+919345541827" className="phone-mail">
-                                    +91 9345541827
+                                    +91 9487065364
                                 </a>
                             </h3>
                             <h3 className="team-member-name phone-mail">
